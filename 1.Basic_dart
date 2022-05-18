@@ -128,7 +128,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
     {
      APPENDING2,
      PENDING2,
-      REJECTED2,
+     REJECTED2,
     }
     void main() 
     {
