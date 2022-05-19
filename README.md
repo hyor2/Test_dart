@@ -45,32 +45,45 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   
   // name = null;       error
   
-  String? name2 = '블랙핑크;;
+  String? name2 = '블랙핑크;
+  
   name2=null;         //가능
+  
   String? name3 = '레드벨벳';
+  
   print( name3! );    //null이 들어갈 수 있지만 null이 아님을 명시
  
  
  # 4 Final vs Const keyword
   -> 한 번 선언하면 변경 불가
+  
   var keyword 생략 가능 ex) final nmae = "____";
+  
   final은 빌드 타임에 값을 알지 않아도 됨
+  
    const는 빌드 타임에 값을 알아야함. -> 빌드 하기전에 값이 있어야 함
  
   final DateTime now = DateTime.now();
+  
   //Const DateTime now2 = DateTime.now();     error
+  
+ 
   // DateTime.now()는 코드가 실행되는 순간의 시간을 반환-> 빌드 이후 
 # 5 null 조건 오퍼레이터
+
   double? number=4.0;
   number=null;
   number?? =3.0;
+  
   -> ?? operator : number가 null일 때 오른쪽 값으로 바꿔라
   
   type비교 오퍼레이터
+  
   print(number is int);
   print(number is! int);
   
 # 6 List type
+
   List <타입> 변수= [ , , , ];
   ex) List <int> numbers = [1,2,3,4,5];
   
