@@ -9,11 +9,15 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   -> 변수가 하나일 때 중괄호 생략 가능, python의 %d,%s 등과 기능 유사
   
   String name='레드벨벳';
-  Stirng name='슬기';
-  print('${name.runtimeType} $ {name2} );
-  print( '$name.runtimeType $name2' );     
   
-  >>> String 슬기
+  Stirng name='슬기';
+  
+  print('${name.runtimeType} $ {name2} );
+  
+  print( '$name.runtimeType $name2' );    
+  
+  
+  출력>>> String 슬기
       레드벨벳.runtimeType 슬기
   
   함수에서는 {}사용해야함, runtimeType함수는 빌드할 때의 타입을 알려줌
