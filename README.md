@@ -14,7 +14,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
       레드벨벳.runtimeType 슬기
       
   
-#2 var vs dynamic type
+# 2 var vs dynamic type
   -> 지동으로 타입 유추
   dynamic name = '레드벨벳';
   var num = 1;
@@ -27,7 +27,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   num='레드벨벳';     //error
   
  
- #3 nullable vs non-nullable
+ # 3 nullable vs non-nullable
   모든 타입은 null 값도 들어갈 수 있는 것과 없는 것으로 나뉨
   
   String name = '코드팩토리';
@@ -38,7 +38,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   print( name3! );    //null이 들어갈 수 있지만 null이 아님을 명시
  
  
- #4 Final vs Const keyword
+ # 4 Final vs Const keyword
   -> 한 번 선언하면 변경 불가
   var keyword 생략 가능 ex) final nmae = "____";
   final은 빌드 타임에 값을 알지 않아도 됨
@@ -47,7 +47,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   final DateTime now = DateTime.now();
   //Const DateTime now2 = DateTime.now();     error
   // DateTime.now()는 코드가 실행되는 순간의 시간을 반환-> 빌드 이후 
-#5 null 조건 오퍼레이터
+# 5 null 조건 오퍼레이터
   double? number=4.0;
   number=null;
   number?? =3.0;
@@ -57,7 +57,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   print(number is int);
   print(number is! int);
   
-#6 List type
+# 6 List type
   List <타입> 변수= [ , , , ];
   ex) List <int> numbers = [1,2,3,4,5];
   
@@ -69,7 +69,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   print( numbers );
   >>> [1,2,4,5,3]
   
- #7 map
+# 7 map
    python의 딕셔너리와 유사 -> key, value값 가지고 있음
    Map< String, String> 변수 = { 'key1' : 'value1', 'key2' : 'value2' };
    //key와 value의 타입을 적어줌
@@ -84,17 +84,17 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
    //value값 모두 출력
    print(isHarryPotter.values);
   
-#8 set
+# 8 set
   중복값 X
   final set <String> names={'Flutter', 'Python', 'Cpp'};
   names.add('__');
   names.remove('___');
   names.contains('Flutter');    //값이 set에 존재하는지 확인
  
- #9 if문, switch문
+# 9 if문, switch문
   -> c++과 동일
   
- #10 Loops
+# 10 Loops
   for loop, do while, break, continue -> c++과 동일
   
   //python과 유사
@@ -104,7 +104,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
     print(numbers);
   }
   
- #11 enum 
+# 11 enum 
   enum Status
   {
     append.
@@ -140,7 +140,7 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
     }
     
    >>> cpp에 경우에는 동일이 출력되고, dart에서는 다름이 출력됨
-#12 함수 선언
+ # 12 함수 선언
   타입 함수명()
   {
   }
