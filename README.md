@@ -2,20 +2,27 @@
 study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH3HK0fm_Lj&index=29
 # 1. variables declaration
   타입 변수명 = _____ ;
+  
   print('$ {name} ${name2}); 
   print('$name $name2); 
+  
   -> 변수가 하나일 때 중괄호 생략 가능, python의 %d,%s 등과 기능 유사
   
   String name='레드벨벳';
   Stirng name='슬기';
   print('${name.runtimeType} $ {name2} );
-  print( '$name.runtimeType $name2' );      //함수에서는 {}사용해야함, runtimeType함수는 빌드할 때의 타입을 알려줌
+  print( '$name.runtimeType $name2' );     
+  
   >>> String 슬기
       레드벨벳.runtimeType 슬기
+  
+  함수에서는 {}사용해야함, runtimeType함수는 빌드할 때의 타입을 알려줌
+
       
   
 # 2 var vs dynamic type
   -> 지동으로 타입 유추
+  
   dynamic name = '레드벨벳';
   var num = 1;
   
@@ -31,7 +38,9 @@ study https://www.youtube.com/watch?v=3Ck42C2ZCb8&list=PLmEhRs1HB7RHX6VbXslXLRYH
   모든 타입은 null 값도 들어갈 수 있는 것과 없는 것으로 나뉨
   
   String name = '코드팩토리';
+  
   // name = null;       error
+  
   String? name2 = '블랙핑크;;
   name2=null;         //가능
   String? name3 = '레드벨벳';
